@@ -91,6 +91,10 @@ Tags:
 		border-bottom: solid 1px #261700;
 	}
 
+    body > aside h2 {
+		background-color: #261700;
+    }
+
 	body > footer {
 		background-color: #261700;
 		border: solid 1px #261700;
