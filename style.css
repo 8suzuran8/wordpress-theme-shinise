@@ -103,6 +103,10 @@ Tags:
 }
 
 @media screen and (min-width: 900px) {
+    body > nav li:hover ul.sub-menu:has(:not(ul.sub-menu)) {
+        background-color: #fff;
+    }
+
 	body > aside {
 		top: 34.6em;
 	}
@@ -110,4 +114,12 @@ Tags:
 	body > ol + main + aside {
 		top: 38.2em;
 	}
+
+    body.disabled-use-title > aside {
+        top: 34.6em;
+    }
+
+    body.disabled-use-title > ol + main + aside {
+        top: 38.2em;
+    }
 }
